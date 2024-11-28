@@ -327,7 +327,7 @@ const BloodPressure = () => {
               <View>
                 <Text style={styles.bodyText1}>
                   {currentType === 'systolic'
-                    ? 'Selecr Systolic'
+                    ? 'Select Systolic'
                     : currentType === 'diastolic'
                     ? 'Select Diastolic'
                     : 'Select Heart Rate'}
