@@ -22,6 +22,7 @@ target 'AwesomeProject' do
     # An absolute path to your application root.
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
+  
 
   target 'AwesomeProjectTests' do
     inherit! :complete
@@ -38,3 +39,8 @@ target 'AwesomeProject' do
     )
   end
 end
+
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/facebook/react-native'
+
+
